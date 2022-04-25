@@ -28,6 +28,7 @@ public class Main {
 // пытались добавить три одинаковых номера - добавился только один из них.        
         map.put(new PhoneNum("001", "984587"), "Александр Александров");
         map.put(new PhoneNum("65987", "6658745"), "Борис Борисов");
+        map.put(new PhoneNum("812", "02"), "полиция СПб");
     map.forEach((x, y) -> System.out.println(x + " = " + y)); 
 
     }
