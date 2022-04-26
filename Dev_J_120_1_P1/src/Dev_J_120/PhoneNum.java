@@ -38,7 +38,7 @@ public class PhoneNum {
               if(!Character.isDigit(ch)) 
                  throw new IllegalArgumentException("Номер телефона указан некорректно");
           }
-          if(temp.length > 2 && temp.length < 10)
+          if(temp.length >= 2 && temp.length < 10)
              this.number = temp;
           else
               throw new IllegalArgumentException("Номер телефона указан некорректно");
